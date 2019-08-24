@@ -17,7 +17,7 @@
 
   <project name="statixos/android_vendor_pixelgapps" path="vendor/pixelgapps" remote="gitlab" revision="9" />
   <project name="DedeFawzy/android_device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="statix" />
-  <project name="Ancient-Project/android_kernel_xiaomi_whyred" path="kernel/xiaomi/whyred" remote="github" revision="pie2-oss-eas" />
+  <project name="akhilnarang/whyred" path="kernel/xiaomi/whyred" remote="github" revision="pie" />
   <project name="xiaomeme-whyred/vendor_xiaomi_whyred" path="vendor/xiaomi/whyred" remote="github" revision="lineage-16.0" />
   <project name="PixelExperience-Devices/vendor_MiuiCamera" path="vendor/MiuiCamera" remote="github" revision="pie-whyred" /> 
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-16.0" /> 
