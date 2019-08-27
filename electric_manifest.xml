@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="hardware/qcom/gps" />
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
   <remove-project name="device/generic/mini-emulator-x86" />
@@ -16,7 +15,6 @@
   <remove-project name="device/generic/mips64" />
 
   <project name="statixos/android_vendor_pixelgapps" path="vendor/pixelgapps" remote="gitlab" revision="9" />
-  <project name="DedeFawzy/android_device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="statix" />
   <project name="akhilnarang/whyred" path="kernel/xiaomi/whyred" remote="github" revision="pie" />
   <project name="xiaomeme-whyred/vendor_xiaomi_whyred" path="vendor/xiaomi/whyred" remote="github" revision="lineage-16.0" />
   <project name="PixelExperience-Devices/vendor_MiuiCamera" path="vendor/MiuiCamera" remote="github" revision="pie-whyred" /> 
