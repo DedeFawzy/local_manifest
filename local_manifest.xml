@@ -15,7 +15,7 @@
   <project name="CesiumOS-Devices/android_device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="pie" />
   <project name="CesiumOS-Devices/vendor_xiaomi_whyred" path="vendor/xiaomi/whyred" remote="github" revision="pie" />
   <project name="akhilnarang/whyred" path="kernel/xiaomi/whyred" remote="github" revision="pie" />
-  <project name="CesiumOS-Devices/vendor_MiuiCamera" path="vendor/MiuiCamera" remote="github" revision="pie-whyred" /> 
+  <project name="CesiumOS-Devices/vendor_MiuiCamera" path="vendor/MiuiCamera" remote="github" revision="pie" /> 
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" /> 
 
 </manifest>
