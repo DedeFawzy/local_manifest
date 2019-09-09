@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="device/sample" />
-  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gdb/darwin-x86" />
-  <remove-project name="platform/prebuilts/go/darwin-x86" />
-  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+  <remove-project name="device/google" />
 
-  <project name="CesiumOS-Devices/android_device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="pie" />
-  <project name="CesiumOS-Devices/vendor_xiaomi_whyred" path="vendor/xiaomi/whyred" remote="github" revision="pie" />
-  <project name="akhilnarang/whyred" path="kernel/xiaomi/whyred" remote="github" revision="pie" />
-  <project name="CesiumOS-Devices/vendor_MiuiCamera" path="vendor/MiuiCamera" remote="github" revision="pie" /> 
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" /> 
 
 </manifest>
