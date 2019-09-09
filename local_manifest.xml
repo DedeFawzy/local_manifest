@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="device/google" />
+  <remove-project name="device/google/accessory" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/google/bonito" />
+  <remove-project name="device/google/bonito-kernel" />
+  <remove-project name="device/google/bonito-sepolicy" />
+  <remove-project name="device/google/contexthub" />
+  <remove-project name="device/google/vrservices" />
 
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" /> 
 
