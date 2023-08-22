@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="device/google/accessory/arduino" />
-  <remove-project name="device/google/accessory/demokit" />
-  <remove-project name="device/google/atv" />
-  <remove-project name="device/google/bonito" />
-  <remove-project name="device/google/bonito-kernel" />
-  <remove-project name="device/google/bonito-sepolicy" />
-  <remove-project name="device/google/contexthub" />
-  <remove-project name="device/google/vrservices" />
-
-  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" /> 
-
+  <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" /> 
+  <project name="PixelExperience/hardware_qcom-caf_sm8150_audio" path="hardware/qcom-caf/sm8150/audio" remote="github" revision="thirteen" /> 
+  <project name="PixelExperience/hardware_qcom-caf_sm8150_display" path="hardware/qcom-caf/sm8150/display" remote="github" revision="thirteen" /> 
+  <project name="PixelExperience/hardware_qcom-caf_sm8150_media" path="hardware/qcom-caf/sm8150/media" remote="github" revision="thirteen" /> 
+  <project name="aosp-playground/android_vendor_xiaomi_sweet-miuicamera" path="vendor/xiaomi/sweet-miuicamera" remote="github" revision="thirteen" /> 
+  
 </manifest>
